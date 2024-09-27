@@ -1,7 +1,7 @@
 class Solution(object):
    class Solution(object):
    def roman_to_int(s: str) -> int:
-    # Mapping of Roman numerals to their integer values
+
     roman_values = {
         'I': 1,
         'V': 5,
@@ -29,7 +29,7 @@ class Solution(object):
     
     return total
 
-# Get user input
+
 user_input = input("Enter a Roman numeral: ")
 result = roman_to_int(user_input)
 print(f"The integer value of the Roman numeral {user_input} is {result}.")
